@@ -1,30 +1,30 @@
 public class Booking {
-    private String startDate;
-    private String endDate;
-    private Pet bookedPet;
-    private Employee caregiver;
+    private String STARTDATE;
+    private String ENDDATE;
+    private Pet BOOKEDPET;
+    private Employee CAREGIVER;
 
     public Booking(Pet pet, Employee assigned, String startDate, String endDate) {
-        this.bookedPet = pet;
-        this.caregiver = assigned;
-        this.startDate = startDate;
-        this.endDate = endDate;
+        this.BOOKEDPET = pet;
+        this.CAREGIVER = assigned;
+        this.STARTDATE = startDate;
+        this.ENDDATE = endDate;
     }
 
     public String getStartDate() {
-        return startDate;
+        return STARTDATE;
     }
 
     public String getEndDate() {
-        return endDate;
+        return ENDDATE;
     }
 
     public Pet getBookedPet() {
-        return bookedPet;
+        return BOOKEDPET;
     }
 
     public Employee getCaregiver() {
-        return caregiver;
+        return CAREGIVER;
     }
 
     public ReportCard generateReportCard() {
