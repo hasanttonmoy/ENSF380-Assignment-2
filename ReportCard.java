@@ -6,7 +6,7 @@ public class ReportCard {
     }
 
     public String printReport() {
-        String report = REPORT.getBookedPet().getName() + " enjoyed taking care of " + REPORT.getCaregiver().getName()
+        String report = REPORT.getCaregiver().getName() + " enjoyed taking care of " + REPORT.getBookedPet().getName()
                 + ". See you next time!";
         return report;
     }

@@ -16,7 +16,6 @@ public class Client {
             this.rewardsInfo = new RewardsProfile(newNumber);
             return true;
         } catch (InvalidRewardsNumException e) {
-            System.out.println(e.getMessage());
             return false;
         }
     }

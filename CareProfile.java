@@ -11,10 +11,10 @@ public class CareProfile {
 
     public String summarizeCareInstructions() {
         String medListString = String.join(", ", this.medList);
-        String result = "Care instructions:\n";
-        result += "Medication: " + medListString + "\n";
-        result += "Instructions: " + this.medInstructions + "\n";
-        result += "Feeding: " + this.feedingInstructions + "\n";
+        String result = "";
+        result += "" + medListString + "\n";
+        result += "" + this.medInstructions + "\n";
+        result += "" + this.feedingInstructions + "\n";
         return result;
     }
 }
